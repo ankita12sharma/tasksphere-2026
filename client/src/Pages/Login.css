@@ -1,0 +1,135 @@
+.login-container {
+  padding: 20px;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+.loginheader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.loginheading {
+  font-weight: bold;
+  margin-top: 25px;
+  color: #555;
+  font-size: 24px;
+}
+
+.styled-login {
+  background-color: #f9f9f9;
+  /* height: 340px;*/
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 60px;
+  margin-right: 180px;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 0px rgba(0, 0, 1.1);
+}
+.login-group {
+  display: flex;
+  margin-left: 240px;
+  margin-right: 22px;
+}
+
+.login-group label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  min-width: 80px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.login-group input[type="text"] {
+  flex: 3;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-top: 6px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.container > h1 {
+  margin-bottom: 20px;
+  margin-right: 300px;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+button {
+  background-color: purple;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.sidebar-style {
+  width: 200px;
+  height: 100%;
+  border-radius: 5px solid grey;
+  background-color: blue;
+}
